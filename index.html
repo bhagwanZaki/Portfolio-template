@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I am Computer Engineering Student from in India with keen
+    interest in building solutions with software development skills.
+    I help convert a vision
+    and an idea into meaningful and useful software products.">
+    <meta name="keywords" content="Portfolio">
+    <meta name="author" content="Khan Zaki Ur Rahman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="icon" href="pic/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script rel="Javascript" src="js/typewriter.js"></script>
+    <script rel="Javascript" src="js/navigation.js"></script>
+    <script rel="Javascript" src="js/tab.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script rel="Javascript" src="js/customslick.js"></script>
+
+    <title>Zaki Portfolio</title>
+</head>
+
+<body>
+    <section id="home">
+        <div class="logo">Zaki Portfolio</div>
+        <img src="pic/des1.jpg" class="bg">
+        <div class="content" id="home" data-aos="fade-up">
+            <h2>Hello,<br> I'm Khan Zaki Ur Rahman</h2>
+            <h2>I'm
+                <span class="txt-type" data-wait="2900"
+                    data-words='[" a CS Student"," a Developer", "a Designer", "a Creator","a DSC-Aiktc Web Domain Lead"]'></span>
+            </h2>
+            <p>
+                Wanna Know more about me
+            </p>
+            <input type="button" value="Lets Start" onclick="startfun();">
+        </div>
+
+    </section>
+
+    <div class="menutoggle" onclick="tooglemenu();">
+    </div>
+    <div class="navigation">
+        <ul>
+            <li><input type="button" value="Home" onclick="homefun();"></li>
+            <li><input type="button" value="About" onclick="aboutme();"></li>
+            <li><input type="button" value="Project" onclick="project();"></li>
+            <li><input type="button" value="Contact" onclick="contact();"></li>
+        </ul>
+        <div class="socialbar">
+            <ul>
+                <li><a href="https://github.com/bhagwanZaki" class="github"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/zaki-ur-rahman-farid-khan-8740a81b1/" class="linkedin"><i
+                            class="fab fa-linkedin"></i></li>
+                <li><a href="https://www.instagram.com/zakiurrahmankhan/" class="instgram"><i
+                            class="fab fa-instagram"></i></a></li>
+            </ul>
+            <a href="mailto:zaki.tarveen@gmail.com" class="email"><img src="pic/email.png"></a>
+        </div>
+    </div>
+    <div class="main">
+
+        <!-- About Me Section  -->
+        <div class="about-me" id="about-me">
+            <div class="container_1">
+                <div class="about_me_title_grid about-title">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="container_1">
+                <div class="about_me_img_grid">
+                    <img src="pic/about-me-pic.jpeg" class="bginfo" id="about_pic">
+                </div>
+                <div class="about_me_info_grid about-info">
+                    <h3 align="center" data-aos="fade-up">Who is this guy ?</h3><br>
+                    <p align="center" data-aos="fade=up">
+                        I am Computer Engineering Student from in India with keen
+                        interest in building solutions with software development skills.
+                        I help convert a vision
+                        and an idea into meaningful and useful software products.
+                    </p>
+                </div>
+            </div>
+            <div class="container_1">
+                <div class="about_me_info_grid infotext">
+                    <p align="center">
+                        Achievements
+                    <ul data-aos="fade-up">
+                        <li>DSC Anjuman I Islam Kalsekar Technical Campus <b>Web developer Lead</b></li>
+                        <li><b>Facililator</b> of Android Study Jam by DSC AIKTC</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="container_1">
+                <div class="about_me_title_grid skill-sub-title-1">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+            <div class="container_1 skill">
+                <div class="skill_1_grid skill-card">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>80<span>%</span></h2>
+                            </div>
+                            <h2 class="text">LeaderShip</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill_2_grid skill-card">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>98<span>%</span></h2>
+                            </div>
+                            <h2 class="text">Love learning</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container_1">
+                <div class="about_me_title_grid skill-sub-title-1">
+                  <h2>Languages</h2>
+                </div>
+            </div>
+            <div class="container_1 skill">
+                <div class="language_1 languages-skill-card">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>80<span>%</span></h2>
+                            </div>
+                            <h2 class="text">Python</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="language_2 languages-skill-card">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>71<span>%</span></h2>
+                            </div>
+                            <h2 class="text">Java</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="language_3 languages-skill-card">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>70<span>%</span></h2>
+                            </div>
+                            <h2 class="text">C / C++</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container_1">
+                <div class="nested_area_1 skill">
+                  <div class="web_development_grid">
+                    <div class="web_development_title skill-sub-title">
+                      <h2>Web development</h2>
+                    </div>
+                    <div class="nested_area_1 web_development_container">
+
+                        <div class="web_lang_1 web-skill-card">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>80<span>%</span></h2>
+                                    </div>
+                                    <h2 class="text">HTML / CSS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="web_lang_2 web-skill-card">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>75<span>%</span></h2>
+                                </div>
+                                <h2 class="text">Django</h2>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="nested_area_1 web_development_container">
+                        <div class="web_lang_1 web-skill-card">
+                          <div class="box">
+                              <div class="percent">
+                                  <svg>
+                                      <circle cx="70" cy="70" r="70"></circle>
+                                      <circle cx="70" cy="70" r="70"></circle>
+                                  </svg>
+                                  <div class="number">
+                                      <h2>40<span>%</span></h2>
+                                  </div>
+                                  <h2 class="text">Express</h2>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="web_lang_2 web-skill-card">
+                          <div class="percent">
+                              <svg>
+                                  <circle cx="70" cy="70" r="70"></circle>
+                                  <circle cx="70" cy="70" r="70"></circle>
+                              </svg>
+                              <div class="number">
+                                  <h2>30<span>%</span></h2>
+                              </div>
+                              <h2 class="text">React</h2>
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="nested_area_2 skill">
+                  <div class="web_development_grid">
+                    <div class="web_development_title skill-sub-title">
+                      <h2>Mob development</h2>
+                    </div>
+                    <div class="nested_area_1 web_development_container">
+
+                        <div class="web_lang_1 android-skill-card">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>40<span>%</span></h2>
+                                    </div>
+                                    <h2 class="text">Kotlin</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="web_lang_2 android-skill-card">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>20<span>%</span></h2>
+                                    </div>
+                                    <h2 class="text">Flutter</h2>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+                <!-- <div class="nested_area_2 ">
+                  <div class="android_development_grid">
+                    <div class="web_development_title skill-sub-title">
+                      <h2>Android development</h2>
+                    </div>
+                      <div class="and_lang_1 android-skill-card">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>40<span>%</span></h2>
+                                </div>
+                                <h2 class="text">Kotlin</h2>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="web_lang_ android-skill-card">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>20<span>%</span></h2>
+                                </div>
+                                <h2 class="text">Flutter</h2>
+                            </div>
+                        </div>
+                      </div> -->
+                      
+                  
+            </div>
+        </div>
+
+        
+        <!-- Project section  -->
+        <div class="project-section" id="project">
+            <div class="container_1 project-title">
+                <div class="about_me_title_grid skill-sub-title-1">
+                  <h2>Projects</h2>
+                </div>
+            </div>
+            <ul class="tabs" align="center">
+                <li class="tab-link current" data-tab="tab-1">Tab One</li>
+                <li class="tab-link" data-tab="tab-2">Tab Two</li>
+                <li class="tab-link" data-tab="tab-3">Tab Three</li>
+                <li class="tab-link" data-tab="tab-4">Tab Four</li>
+            </ul>
+        
+            <div id="tab-1" class="tab-content current">
+                <div class="post-slider">
+                    <i class="fas fa-chevron-left prev"></i>
+                    <i class="fas fa-chevron-right next"></i>
+
+                    <div class="post-wrapper">
+
+                        <div class="post">
+
+
+
+                            <div class="">
+                                <div class="">
+                                    <img src="pic/projects/admin dashboard.png" alt="" class="slider-image">
+                                </div>
+                                <div class="">
+                                    <div class="post-info">
+                                        <h2>
+                                            Floran Classroom
+                                        </h2>
+                                        <hr>
+                                        <p>
+                                            Floran is website that manage school application from staff level work
+                                            to
+                                            teacher and student level work.
+
+                                            This website takes everyday attendance along with the student assestment
+                                            and after each sem or year duration. You can manually give the command
+                                            to create the report of each student
+
+                                        </p>
+                                        <div class="">
+                                            <a href="http://floran.herokuapp.com/" target="_blank"
+                                                class="view-project"><span>View project</span><i
+                                                    class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                        <div class="">
+                                            <a href="https://github.com/Floran-Github/Project-code" target="_blank"
+                                                class="view-project"><i class="fab fa-github"></i><span>View
+                                                    code</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="post">
+                            <div class="">
+                                <div class="">
+                                    <img src="pic/projects/dscaiktc-website.png" alt="" class="slider-image">
+                                </div>
+                                <div class="">
+                                    <div class="post-info">
+                                        <h4>
+                                            DSC Aiktc Website
+                                        </h4>
+                                        <hr>
+                                        <p>
+                                            Developer Student Clubs AIKTC, powered by Google Developers, is a
+                                            non-profit community that aims to inspire intelligent minds in the field
+                                            of technology. DSC provides opportunities where developers, designers
+                                            and managers work together to carry out real-time projects.
+                                        </p>
+                                        <div class="">
+                                            <a href="https://www.dscaiktc.ml/" target="_blank"
+                                                class="view-project"><span>View project</span><i
+                                                    class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                        <div class="">
+                                            <a href="https://github.com/bhagwanZaki/Dsc-Aiktc" target="_blank"
+                                                class="view-project"><i class="fab fa-github"></i><span>View
+                                                    code</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="">
+                                <div class="">
+                                    <img src="pic/projects/floran-todo.png" alt="" class="slider-image">
+                                </div>
+                                <div class="">
+                                    <div class="post-info">
+                                        <h4>
+                                            Floran Todo
+                                        </h4>
+                                        <hr>
+                                        <p>
+                                            Floran Todo is a simple web application to save Your daily tasks in
+                                            order not to miss anything.
+                                            The main goal behind this project was to pratice the Django and
+                                            different generic views of django
+
+                                        </p>
+                                        <div class="bottom">
+
+                                            <div class="">
+                                                <a href="http://floran-todo.herokuapp.com/" target="_blank"
+                                                    class="view-project"><span>View project</span><i
+                                                        class="fas fa-chevron-right"></i></a>
+                                            </div>
+                                            <div class="">
+                                                <a href="https://github.com/bhagwanZaki/Django-todo" target="_blank"
+                                                    class="view-project"><i class="fab fa-github"></i><span>View
+                                                        code</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="course-detail.html" class="">
+                                <div class="">
+                                    <div class="">
+                                        <img src="pic/projects/coderhi.jpg" alt="" class="slider-image">
+                                    </div>
+                                    <div class="">
+                                        <div class="post-info">
+                                            <h4>
+                                                <a href="single.html">
+                                                    CoderHi
+                                                </a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        CoderHi is the online platform that helps the coder community to learn and
+                                        grow in both industry skills and personal skills<br>
+                                        The main goal for this platform was to make a center where all devops can
+                                        meet and help each other, in both knowledge and skills<bt>
+                                            <br><br><i>Project Under development</i></br>
+                                        </bt>
+                                    </p>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div id="tab-2" class="tab-content">
+                <div class="container_1 project-row">
+                    <div class="mobile_grid_1" data-aos="fade-right">
+                        <img src="pic/projects/phone_3-removebg-preview.png" class="project-pic">
+                    </div>
+                    <div class="mobile_grid_2 project-info" data-aos="fade-left">
+                        <h4>Floran Chatty</h4>
+                        <p>
+                            Floran Chatty is a basic android chatting app that uses the kotlin backend and firebase
+                            realtime data.
+                            <br>The app provideds the feature such
+                        <ul>
+                            <li>Show new messages</li>
+                            <li>You can search the user to chat</li>
+                            <li>Realtime chatting</li>
+                        </ul>
+                        </p>
+
+                        <a href="https://github.com/bhagwanZaki/Floran-Chatty" target="_blank"
+                            class="view-project"><i class="fab fa-github"></i><span>View code</span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-3" class="tab-content">
+                <div class="container_1 project-row">
+                    <div class="mobile_grid_1" data-aos="fade-right">
+                        <img src="pic/projects/phone-2-removebg-2.png" class="project-pic">
+                    </div>
+                    <div class="mobile_grid_2 project-info" data-aos="fade-left">
+                        <h4>Bloggy</h4>
+                        <p>
+                            Bloggy is simple Blog Native Mobile app build with flutter and use firebase for realtime
+                            database. <br>This app uses google authentication for sign-in and sign-up
+                            <br> Since this was a small app that I created while learning flutter, as a result much
+                            features are not available in it
+                        </p>
+
+                        <a href="https://github.com/bhagwanZaki/Bloggy-app" target="_blank" class="view-project"><i
+                                class="fab fa-github"></i><span>View code</span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-4" class="tab-content">
+                <div class="container_1 project-row">
+                    <div class="mobile_grid_1" data-aos="fade-right">
+                        <img src="pic/projects/react-dj.jpg" class="project-pic">
+                    </div>
+                    <div class="mobile_grid_2 project-info" data-aos="fade-left">
+                        <h4>Floran Music House</h4>
+                        <p>
+                            Floran Music House is a musiccontroller with spotify api and is created with react
+                            intergrated with django where people can create room and listen to same song The only
+                            drawback of it is that you need premium spotify account to play/pause/skip the song
+                            <br>
+                            I have created this project with by learning it from techwithtim django react series The
+                            main motive behind this project was to learn react integrated with django
+                        </p>
+
+                        <a href="https://github.com/bhagwanZaki/music-controller" target="_blank"
+                            class="view-project"><i class="fab fa-github"></i><span>View code</span></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+           
+
+
+
+
+
+        </div>
+
+        <!-- Contact Page -->
+        <section class="contacts" id="contact">
+            <div class="contents">
+                <h2>Contact</h2>
+                <p>
+                    Wanna get in touch?
+                </p>
+            </div>
+            <div class="contact-containers">
+                <div class="contactinfo">
+                    <div class="boxs">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="texts">
+                            <h3>Address</h3>
+                            <p>Sakinaka, Mumbai<br>Maharashtra </p>
+                        </div>
+                    </div>
+                    <div class="boxs">
+                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="texts">
+                            <h3>Phone</h3>
+                            <p>7039691123 </p>
+                        </div>
+                    </div>
+                    <div class="boxs">
+                        <div class="icon"><i class="far fa-envelope"></i></div>
+                        <div class="texts">
+                            <h3>Email</h3>
+                            <p>zaki.tarveen@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform">
+                    <form method="POST" data-netlify="true">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="name" required="required">
+                            <span>Full name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" name="email" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea name="message" required="required"></textarea>
+                            <span>Send Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <div class="captchbox" data-netlify-recaptcha="true">
+                            </div>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <footer class="page-footer font-small special-color-dark">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:Zaki Portfolio
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            duration: 1000,
+            once: false,
+        });
+    </script>
+</body>
+
+</html>
