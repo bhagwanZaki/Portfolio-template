@@ -817,7 +817,13 @@ ul.tabs li.current{
         left: 0px;
     }
     .bginfo{
-        height: 39vh;
+        height: 36vh;
+    }
+    .about-info p{
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
     .main .about-me{
         padding-right: 10px;
@@ -838,6 +844,9 @@ ul.tabs li.current{
     }
     .project-pic{
         width: 100%;
+    }
+    .project-info{
+        padding: 0px;
     }
     .skill-title h2,
     .project-title h2,
