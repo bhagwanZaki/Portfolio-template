@@ -117,27 +117,31 @@
         grid-column-start: 5;
     }
     .skill_2_grid{
-        grid-column-start: 3;
+        grid-column-start: 2;
     }
 
     .language_1,
     .language_2,
     .language_3{
         grid-column-start: 3;
+        grid-column-end: 4;
+        margin-right: 50px;
     }
 
     .web_lang_1{
         grid-column-start: 4;
-        margin-left: 15px;
+        margin-left: 60px;
     }
 
     .web_lang_2{
         grid-column-start: 4;
         margin-left: 13px;
     }
+    .about_me_img_grid{
+        grid-column-start: 7;
+    }
 
     .about_me_title_grid,
-    .about_me_img_grid,
     .about_me_info_grid{
         grid-column-start: 4;
         margin-left: 13px;

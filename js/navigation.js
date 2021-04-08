@@ -2,7 +2,7 @@ function tooglemenu(){
     var menu = document.querySelector('.menutoggle');
     var nav = document.querySelector('.navigation');
     var start = document.querySelector('.main');
-    var skill = document.querySelector('.skill-hide');
+    var skill = document.querySelector('.about-me');
     menu.classList.toggle('active');
     nav.classList.toggle('active');
     skill.classList.toggle('skill-active')
@@ -19,7 +19,7 @@ function startfun(){
 function navigation(){
     var menu = document.querySelector('.menutoggle');
     var nav = document.querySelector('.navigation');
-    var skill = document.querySelector('.skill-hide');
+    var skill = document.querySelector('.about-me');
     setTimeout(() =>{
     if(menu.classList.contains('active')){
         nav.classList.remove('active');
