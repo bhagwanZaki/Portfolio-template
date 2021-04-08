@@ -703,7 +703,7 @@ ul.tabs li.current{
     padding: 10px 0;
 }
 
-@media(max-width: 800px){
+@media(max-width: 1024px){
     .skill .skill-card-gap,
     .skill .skill-card{
         display: block;

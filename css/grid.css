@@ -111,8 +111,30 @@
     grid-column-start: 2;
 }
 
+@media(max-width:1024px) {
+    .nested_area_1{
+
+        grid-column-start: 2;
+        margin-left: 50px;
+    }
+    .nested_area_2{
+        grid-column-start: 2;
+        margin-left: 50px;
+    }
+
+    .about_me_img_grid{
+        grid-column-start: 7;
+    }
+
+    .about_me_title_grid,
+    .about_me_info_grid{
+        grid-column-start: 4;
+        margin-left: 13px;
+    }   
+}
 
 @media(max-width: 500px){
+    
     .skill_1_grid{
         grid-column-start: 5;
     }
